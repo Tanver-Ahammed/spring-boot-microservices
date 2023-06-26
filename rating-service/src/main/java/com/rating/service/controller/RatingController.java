@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/ratings")
-public class ratingController {
+public class RatingController {
 
     @Autowired
     private RatingServiceImpl ratingService;

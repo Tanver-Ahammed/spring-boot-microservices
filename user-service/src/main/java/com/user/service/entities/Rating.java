@@ -10,10 +10,17 @@ import lombok.*;
 public class Rating {
 
     private long ratingId;
+
     private long userId;
+
     private long hotelId;
+
     private int rating;
+
     private String remark;
+
     private String feedback;
+
+    private Hotel hotel;
 
 }
